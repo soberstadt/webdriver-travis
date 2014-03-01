@@ -38,5 +38,6 @@ PLATFORMS
 DEPENDENCIES
   rake
   rspec
+  selenium-webdriver
   watir-rspec
   watir-webdriver

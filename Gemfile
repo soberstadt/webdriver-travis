@@ -5,4 +5,5 @@ gem "rspec"
 gem "rake"
 gem "watir-webdriver"
 gem "watir-rspec"
+gem "selenium-webdriver"
 
