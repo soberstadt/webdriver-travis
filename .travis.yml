@@ -5,7 +5,10 @@ rvm:
 before_script:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
-  - sleep 3 # give xvfb some time to start
+  - sleep 1 # give xvfb some time to starta
+  - "ln -s www mobile"
+  - "ruby -run -e httpd . -p 3000 &"
+  - sleep 1
 
 script: "bundle exec rspec spec/"
 

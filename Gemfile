@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 
 gem "rspec"
-gem "rake"
+# gem "rake"
 gem "watir-webdriver"
 gem "watir-rspec"
 gem "selenium-webdriver"
